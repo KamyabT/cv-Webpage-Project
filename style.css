@@ -1,0 +1,247 @@
+/************************All**********************/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.innerContainer {
+  padding: 10px 15px;
+}
+
+.mainSectionsInnerContainer {
+  padding: 20px 15px;
+}
+
+.fa {
+  color: #009688;
+}
+
+.outerProgressBar {
+  border-radius: 35px;
+  background-color: #f1f1f1;
+  margin: 15px 0;
+}
+
+.innerProgressBar {
+  text-align: center;
+  border-radius: 35px;
+  color: #fff;
+  background-color: #009688;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+/************************Design**********************/
+.mainBodyDesign {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1f1f1;
+}
+
+.mainBodyDesign .mainDesign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection {
+  background-color: #fff;
+  margin: 20px 10px;
+  -webkit-box-shadow: 0px 0px 6px 1px #757575;
+          box-shadow: 0px 0px 6px 1px #757575;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .avatarSection {
+  position: relative;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .avatarSection img {
+  width: 100%;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .avatarSection .cvPicture {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .avatarSection .cvPicture h2 {
+  margin: 10px 0 10px 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection p.cvContactInfos {
+  color: #757575;
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection .cvSkillsSection {
+  margin: 20px 0;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection .skillsItems {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection .photoshop .photoshopProgress {
+  width: 90%;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection .photography .photographyProgress {
+  width: 80%;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection .illustrator .illustratorProgress {
+  width: 75%;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection .media .mediaProgress {
+  width: 50%;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection .cvLanguagesSection {
+  color: #757575;
+  font-size: 18px;
+  margin: 35px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection .english .englishProgress {
+  width: 100%;
+  height: 24px;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection .spanish .spanishProgress {
+  width: 50%;
+  height: 24px;
+}
+
+.mainBodyDesign .mainDesign .leftColumnSection .cvSection .german .germanProgress {
+  width: 25%;
+  height: 24px;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign {
+  margin: 20px 10px;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .workExperienceSection {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 6px 1px #757575;
+          box-shadow: 0px 0px 6px 1px #757575;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .workExperienceSection h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  margin: 15px 0;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .workExperienceSection p {
+  margin: 15px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .workExperienceSection .workExperienceWorkingDate {
+  color: #009688;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .workExperienceSection .workExperienceWorkingDate .todayDate {
+  padding: 05px 05px;
+  background-color: #009688;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .workExperienceSection i {
+  margin-right: 10px;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .workExperienceSection .workExperienceSectionTitle {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .workExperienceSection .workExperienceSectionTitle i {
+  margin-right: 10px;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .educationSetion {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 6px 1px #757575;
+          box-shadow: 0px 0px 6px 1px #757575;
+  margin-top: 20px;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .educationSetion h5 {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .educationSetion p {
+  margin: 15px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .educationSetion .educationSectionDate {
+  color: #009688;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .educationSetion i {
+  margin-right: 10px;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .educationSetion .educationSectionTitle {
+  color: #757575;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+.mainBodyDesign .mainDesign .mainSectionDesign .educationSetion .educationSectionTitle i {
+  margin-right: 10px;
+}
+
+.footerSectionDesign {
+  background-color: #009688;
+  text-align: center;
+}
+
+.footerSectionDesign p {
+  color: #fff;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.footerSectionDesign i {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

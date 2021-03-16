@@ -1,0 +1,285 @@
+$primaryBgColor: #000;
+$secondaryBgColor: #fff;
+$thirdBgColor: #ccc;
+$fourthBgColor: #f1f1f1;
+$fifthBgColor: #757575;
+$sixthBgColor: #009688;
+
+
+
+$primaryTxtColor: #000;
+$secondaryTxtColor: #fff;
+$thirdTxtColor: #ccc;
+$fourthTxtColor: #009688;
+$fifthTxtColor: #757575;
+
+
+
+
+
+$primaryFontFamily: "Roboto", sans-serif;
+
+
+$fontWeight : (
+    "light": 400,
+    "regular": 600,
+    "bold": 800, 
+);
+
+
+
+/************************All**********************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.innerContainer {
+    padding: 10px 15px;
+}
+
+.mainSectionsInnerContainer {
+    padding: 20px 15px;
+}
+
+.fa {
+    color: $fourthTxtColor;
+}
+
+.outerProgressBar {
+    border-radius: 35px;
+    background-color: $fourthBgColor;
+    margin: 15px 0;
+}
+
+.innerProgressBar {
+    text-align: center;
+    border-radius: 35px;
+    color: $secondaryTxtColor;
+    background-color: $sixthBgColor;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+
+/************************Design**********************/
+.mainBodyDesign {
+    font-family: $primaryFontFamily;
+    background-color: $fourthBgColor;
+    .mainDesign {
+        display: flex;
+        .leftColumnSection {
+            background-color: $secondaryBgColor;
+            margin: 20px 10px;
+            box-shadow: 0px 0px 6px 1px $fifthBgColor;
+            .avatarSection {
+                position: relative;
+                img {
+                    width: 100%;
+                }
+                .cvPicture {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    // padding: 0 0 15px 15px;
+                    h2 {
+                        margin: 10px 0 10px 10px;
+                        font-size: 30px;
+                        font-weight: map-get($fontWeight, "light");
+                    }
+                }
+            }
+            .cvSection {
+                i {
+                    margin-right: 10px;
+                    font-size: 18px;
+                }
+                p.cvContactInfos {
+                    color: $fifthTxtColor;
+                    margin: 15px 0;
+                    font-size: 15px;
+                }
+                .cvSkillsSection {
+                    margin: 20px 0;
+                    color: $fifthTxtColor;
+                    font-family: $primaryFontFamily;
+                    font-size: 18px;
+                }
+                .skillsItems {
+                    color: $fifthTxtColor;
+                    font-family: $primaryFontFamily;
+                }
+                .photoshop {
+                    .photoshopProgress {
+                        width: 90%;
+                    }
+                }
+                .photography {
+                    .photographyProgress {
+                        width: 80%;
+                    }
+                }
+                .illustrator {
+                    .illustratorProgress {
+                        width: 75%;
+                    }
+                }
+                .media {
+                   .mediaProgress {
+                       width: 50%;
+                   } 
+                }
+                .cvLanguagesSection {
+                    color: $fifthTxtColor;
+                    font-size: 18px;
+                    margin: 35px 0;
+                    font-family: $primaryFontFamily;
+                }
+                .english {
+                    .englishProgress {
+                        width: 100%;
+                        height: 24px;
+                    }
+                }
+                .spanish {
+                    .spanishProgress {
+                        width: 50%;
+                        height: 24px;
+                    }
+                }
+                .german {
+                    .germanProgress {
+                        width: 25%;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+        .mainSectionDesign {
+            margin: 20px 10px;
+            .workExperienceSection {
+                background-color: $secondaryBgColor;
+                box-shadow: 0px 0px 6px 1px $fifthBgColor;
+                h5 {
+                    font-size: 18px;
+                    font-weight: map-get($fontWeight, "light");
+                    color: $fifthTxtColor;
+                    font-family: $primaryFontFamily;
+                    margin: 15px 0;
+                }
+                p {
+                    margin: 15px 0;
+                    font-family: $primaryFontFamily;
+                }
+                .workExperienceWorkingDate {
+                    color: $fourthTxtColor;
+                    .todayDate {
+                        padding: 05px 05px;
+                        background-color: $sixthBgColor;
+                        color: $secondaryTxtColor;
+                        border-radius: 5px;
+                    }
+                }
+                i {
+                    margin-right: 10px;
+                }
+                .workExperienceSectionTitle {
+                    color: $fifthTxtColor;
+                    font-family: $primaryFontFamily;
+                    font-size: 30px;
+                    font-weight: map-get($fontWeight, "light");
+                    padding: 20px 0;
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .educationSetion {
+                background-color: $secondaryBgColor;
+                box-shadow: 0px 0px 6px 1px $fifthBgColor;
+                margin-top: 20px;
+                h5 {
+                    color: $fifthTxtColor;
+                    font-size: 18px;
+                    font-weight: map-get($fontWeight, "light");
+                    margin: 15px 0;
+                }
+                p {
+                    margin: 15px 0;
+                    font-family: $primaryFontFamily;
+                }
+                .educationSectionDate {
+                    color: $fourthTxtColor;
+                }
+                i {
+                    margin-right: 10px;
+                }
+                .educationSectionTitle {
+                    color: $fifthTxtColor;
+                    font-size: 30px;
+                    font-weight: map-get($fontWeight, "light");
+                    padding: 20px 0;
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+.footerSectionDesign {
+    background-color: $sixthBgColor;
+    text-align: center;
+    p {
+        color: $secondaryTxtColor;
+        padding: 15px;
+        font-size: 15px;
+    }
+    i {
+        color: $secondaryTxtColor;
+    }
+}
+
+
+
+
+
+//     .ColumnSection {
+//         display: flex;
+//         .leftColumnSectionDesign {
+//             background-color: $secondaryBgColor;
+//             margin: 15px 15px;
+//             .avatarSection {
+
+//                 img {
+//                     width: 100%;
+//                 }
+//             }
+//         }
+//         .cvDetailsSection {
+            
+//         }
+//         .cvDescriptionSection {
+//             background-color: $secondaryBgColor;
+//             margin: 15px 15px;
+//             .workExperienceSection {
+//                 margin-bottom: 25px;
+//             }
+//             .educationSection {
+
+//             }
+//         }
+//     }
+// }
+
